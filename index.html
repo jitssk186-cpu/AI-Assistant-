@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0,
+                 viewport-fit=cover">
+
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+  <title>My AI 🤖</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <main class="app">
+
+    <div class="orb" id="orb">
+      <div class="robot">🤖</div>
+    </div>
+
+    <h1>My AI</h1>
+
+    <p id="status">AI is OFF</p>
+
+    <div class="indicator">
+      <span id="dot"></span>
+      <span id="statusText">Waiting...</span>
+    </div>
+
+    <div class="conversation" id="conversation">
+      <div class="message ai">
+        Hello 👋<br>
+        Say <b>"Open AI"</b> to start.
+      </div>
+    </div>
+
+    <div class="command-box">
+      <p>Voice commands</p>
+
+      <div class="command">
+        <span>🟢</span>
+        <span>"Open AI"</span>
+      </div>
+
+      <div class="command">
+        <span>🔴</span>
+        <span>"Turn off AI"</span>
+      </div>
+    </div>
+
+    <button id="startButton">
+      🎙️ Start Listening
+    </button>
+
+  </main>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
